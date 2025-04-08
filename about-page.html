@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://kit.fontawesome.com/8164297fea.js" crossorigin="anonymous"></script>
+    <title>Retro Games</title>
+</head>
+<body>
+  <a href="#featuredProducts" class="visually-hidden-focusable btn btn-primary m-2">
+    Skip to Main Content
+  </a>
+    <!-- Header Section -->
+    <header class="d-flex justify-content-between align-items-center p-3 bg-black text-white">
+      <div class="d-flex align-items-center">
+        <img src="./image/retro-world-logo.png" alt="Retro-Games-Logo" class="me-2" > 
+        <a href="./index.html" class="fw-bold text-white text-decoration-none fs-5 ms-1">
+          Retro World Games <i class="fa-solid fa-cart-shopping ms-2"></i>
+        </a>
+      </div>
+      
+      <nav class="navbar navbar-dark bg-black">
+        <div class="container-fluid justify-content-between align-items-center">
+          <!--i used bootsrap d-lg-none to hide the desktop nav items on mobile display-->
+          
+      
+          <button class="navbar-toggler border-0 shadow-none d-lg-none" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <!-- Desktop nav links. I will hide this on mobile screen -->
+          <ul class="navbar-nav flex-row gap-4 d-none d-lg-flex">
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-white" href="./index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-white" href="./product-page.html">PRODUCT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-white" href="./about-page.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-white" href="./contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      
+        <!-- Mobile dropdown nav -->
+        <div class="collapse bg-white w-100 d-lg-none" id="mainNav">
+          <ul class="navbar-nav text-center py-3">
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-dark border-bottom" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-dark border-bottom" href="./product-page.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-dark border-bottom" href="./about-page.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-dark" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+      
+     
+    </header>
+
+
+    <section class="container py-5">
+      <h2 class="fw-bold text-center mb-5">Player One's Story 🎮</h2>
+  
+      <div class="row align-items-center">
+        <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+          <!--I couldn't make my photo responsive because the original photo was small-->
+          <img src="./image/edward.jpg" alt="photo of Edward" class="img-fluid glow-img" id="featuredProducts"  >
+        </div>
+  
+        <div class="col-12 col-lg-8">
+          
+  
+          <p class="abt">
+            Hey there, gamer! I’m Edward, the creator of Retro World Games — your pixel-packed portal to the golden era of video games.
+          </p>
+  
+          <p class="abt">
+            Growing up with arcade cabinets, chiptune music, and pixelated adventures, I fell in love with the magic of retro gaming.
+            I created this site to bring that nostalgia to life and share it with a new generation (and fellow old-school fans like you!).
+          </p>
+  
+          <p class="abt">
+            Here, you'll find everything from classic game-inspired designs and content to modern twists on vintage vibes.
+            Whether you're a longtime fan or just discovering the charm of 8-bit worlds, Retro World Games is a place to <strong>play</strong>,
+            <strong>explore</strong>, and remember why gaming is awesome.
+          </p>
+  
+          <p class="abt">
+            So grab your virtual joystick, power up, and let’s go on a retro ride together. 🕹️✨
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-primary text-white p-4" itemscope itemtype="https://schema.org/LocalBusiness">
+      <div class="container">
+        <div class="d-flex flex-column flex-lg-row justify-content-between align-items-start gap-4">
+    
+          <div>
+            <p class="fw-bold mb-1" itemprop="name">Retro Games</p>
+            <p class="mb-2">
+              <span itemprop="telephone">343-1010-1010</span><br>
+              <span itemprop="email">info@retroworld.com</span>
+            </p>
+            <p class="fw-bold mb-1">Address</p>
+            <p itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+              <span itemprop="streetAddress">T Building, Algonquin Avenue</span><br>
+              <span itemprop="addressLocality">Ottawa</span>,
+              <span itemprop="addressRegion">Ontario</span>
+            </p>
+          </div>
+    
+          <div class="d-flex flex-column align-items-center align-items-lg-start ms-lg-5">
+            <p>Terms of Service</p>
+            <p>Store Cancellation</p>
+            <p>Policy</p>
+            <p>Health Warnings</p>
+            <p>About Ratings</p>
+          </div>
+    
+          <div class="d-flex justify-content-end align-items-center gap-3">
+            <a href="https://www.facebook.com/" target="_blank">
+              <img src="./image/facebook-logo.png" alt="Facebook" width="40">
+            </a>
+            <a href="https://www.youtube.com/" target="_blank">
+              <img src="./image/youtube-logo.png" alt="YouTube" width="40">
+            </a>
+            <a href="https://x.com/home" target="_blank">
+              <img src="./image/twitter-logo.png" alt="Twitter" width="40">
+            </a>
+          </div>
+    
+        </div>
+    
+        <div class="text-center mt-4 text-white">
+          <small>© 2025 <span itemprop="name">retroworld</span>. All rights reserved.</small>
+        </div>
+      </div>
+    
+      <a href="#" class="btn btn-primary position-relative bottom-0 end-0 m-3" aria-label="Back to top">
+        ↑ Back to top
+      </a>
+      
+    </footer>
+    
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
